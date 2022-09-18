@@ -1,4 +1,10 @@
 def main():
+    """
+    This is somewhat intentionally complicated to show that you can throw a bunch of math into a function.
+    Once the prints start outputting we can see that its just the same as any other iteration, just keeps doing
+    the same thing over and over again. I also include a slightly different output with some slicers.
+
+    """
     principal = 1000  # Initial amount
     rate = 0.20  # Interest rate
     num_years = 5  # Number of years

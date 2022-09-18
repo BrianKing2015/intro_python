@@ -1,4 +1,9 @@
 def main(age):
+    """
+    This function accepts a single variable, age it needs to be an int but input() produces a string
+     so we need change it to an integer to work with it.
+     Once we have the int then we perform some checks on it and for each age bracket we print some logic
+    """
     if age < 13:
         print("Admission costs $2")
     elif 13 <= age < 18:
